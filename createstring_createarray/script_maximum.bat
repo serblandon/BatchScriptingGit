@@ -6,7 +6,7 @@ goto :main
 :main
 setlocal
 	
-	call createarray listofnumbers "," "1,23,0,999,-3"
+	call createarray listofnumbers "," "1,23,0,999,-3,1231223"
 	call maximum listofnumbers max
 
 	echo !max!
